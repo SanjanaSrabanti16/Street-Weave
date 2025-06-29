@@ -9,6 +9,7 @@ export default defineConfig({
     sourcemap: true
   },
   plugins: [react()],
+  base: '/Street-Weave',
   resolve: {
     alias: {
       '@streetweave': path.resolve(__dirname, '../streetweave'),
