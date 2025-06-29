@@ -145,8 +145,7 @@ async function createAndPlaceVegaLiteSVG({
   chartSpec,
   dataValues,
   id,
-  transform,
-  vegaEmbedSelector = '#vis'
+  transform
 }: {
   pane: HTMLElement,
   chartSpec: any,

@@ -180,8 +180,8 @@ export function buildD3Instructions(
     const cellWidthAligned = segmentLength / numColumns; // Each cell's width spans part of the segment length
     const cellHeightAligned = totalMatrixPerpendicularHeight / numRows;
 
-    const d1 = thematicData.attributeStats[colorVar1Name];
-    const d2 = thematicData.attributeStats[colorVar2Name];
+    // const d1 = thematicData.attributeStats[colorVar1Name];
+    // const d2 = thematicData.attributeStats[colorVar2Name];
 
 
     
@@ -190,8 +190,8 @@ export function buildD3Instructions(
         
         const value1 = getDynamicStyleValue(colorVar1Name, edge.attributes, thematicData.attributeStats, [0,5]) as number;//0.2
         const value2 = getDynamicStyleValue(colorVar2Name, edge.attributes, thematicData.attributeStats, [0,5]) as number;//0.5
-        const totalCells = numRows * numColumns;
-        const cellIndex = r * numColumns + c;
+        // const totalCells = numRows * numColumns;
+        // const cellIndex = r * numColumns + c;
         // const v1 = d1.min + ((cellIndex + 0.5)/totalCells) * (d1.max - d1.min);
         // const v2 = d2.min + ((cellIndex + 0.5)/totalCells) * (d2.max - d2.min);
         // const n1 = (v1 - d1.min)/(d1.max - d1.min);
